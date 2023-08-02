@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coming Soon</title>
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>20ft Single Apartment 2</h2>
+            
+        </div>
+        <br><br>
+        <div class="workBx">
+            <div class="imgBx" style="float: right; padding-left: 20px;">
+                <a href="ComingSoon.html" ><img src="images/Image1.png" alt="" width="700px" height="500px"></a>
+            </div>
+            <div style="align-items: center; text-align: center;">
+                <h2 style="text-transform: capitalize;"> The 6m Humble Abode</h2>
+            </div>
+            <div style="align-items: center; text-align: center;">
+                <p style="font-size: 1em;">
+                Welcome to the 6m Humble Abode. This stylish, off-grid, 20ft shipping container is built from a high-cube shipping container for added head room. 
+                <br><br>
+                The apartment has a minimalistic design language that focuses on creating a spacious living environment, with a focus on sustainability and functionality. 
+                The furniture is carefully chosen to be dual purpose where necessary, putting your needs as a student first. The room comes with the following amenities:
+                </p>
+            </div>
+            <div style="align-items: center; text-align: center;">
+                <p >
+                    <ul style="list-style-type: none; font-size: 1.2em;">
+                        <li>Kitchenette</li>
+                        <li>Dining/Study table</li>
+                        <li>Double Bed</li>
+                        <li>Toilet with shower</li>
+                        <li>Wi-Fi </li>
+                    </ul>
+                </p> 
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2023 Polaris Homes. All rights reserved</p>
+    </div>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Selections</a></li>
+            <li><a href="#work" onclick="toggleMenu();">FAQ's</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

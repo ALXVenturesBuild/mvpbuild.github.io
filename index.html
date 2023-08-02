@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Polaris Homes</title>
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu();"></div>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Polaris Homes</h2>
+            <p>Hello! Welcome to Polaris Homes. We are so excited to have you join our family.
+                Here at Polaris Homes, we believe in student-centric accommodation that is eco-friendly, sustainable, comfortable, 
+                and as stress-free as possible - allowing you to focus all your efforts toward your studies.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="twentyfootsingle.html" ><img src="images/Image1.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>20ft Single Apartment 1</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image2.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>20ft Single Apartment 2</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image3.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>20ft Single Apartment 3</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image4.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>20ft Single Apartment 4</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image5.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>20ft Single Apartment 5</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image6.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>40ft Single Apartment 1</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image8.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>40ft Single Apartment 2</h3></a>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <a href="ComingSoon.html" ><img src="images/Image7.png" alt=""></a>
+                </div>
+                <div class="textBx">
+                    <a href="ComingSoon.html" style=text-decoration:none><h3>2 x 20ft Double Apartment</h3></a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2023 Polaris Homes. All rights reserved</p>
+    </div>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Selections</a></li>
+            <li><a href="#work" onclick="toggleMenu();">FAQ's</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
